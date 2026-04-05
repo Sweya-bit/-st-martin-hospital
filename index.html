@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ST MARTIN HOSPITAL KIPATIMU</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:linear-gradient(135deg,#e3f2fd,#ffffff);
+}
+
+/* HEADER */
+header{
+background:linear-gradient(90deg,#0a4fa3,#0d7be0);
+color:white;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 20px;
+}
+
+.logo{
+display:flex;
+align-items:center;
+}
+
+.logo img{
+width:60px;
+margin-right:10px;
+}
+
+.contact{
+font-weight:bold;
+}
+
+/* NAV */
+nav{
+background:#083d7a;
+text-align:center;
+padding:12px;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#ffd700;
+}
+
+/* HERO */
+.hero{
+height:420px;
+background:
+linear-gradient(rgba(10,79,163,0.7),
+rgba(13,123,224,0.7)),
+url("hospital.jpg");
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+}
+
+.hero-box{
+background:rgba(0,0,0,0.4);
+padding:30px;
+border-radius:12px;
+}
+
+.hero h2{
+font-size:34px;
+margin:0;
+}
+
+/* SERVICES */
+.services{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+padding:40px 10px;
+}
+
+.card{
+background:white;
+width:260px;
+margin:15px;
+padding:20px;
+border-radius:12px;
+text-align:center;
+box-shadow:0 6px 15px rgba(0,0,0,0.15);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card img{
+width:70px;
+}
+
+/* WHATSAPP BUTTON */
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 18px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* FOOTER */
+footer{
+background:linear-gradient(90deg,#0a4fa3,#083d7a);
+color:white;
+text-align:center;
+padding:20px;
+margin-top:30px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">
+<img src="logo.png">
+<h2>ST MARTIN HOSPITAL KIPATIMU</h2>
+</div>
+
+<div class="contact">
+📞 0789107072
+</div>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Doctors</a>
+<a href="#">Services</a>
+<a href="#">Appointment</a>
+<a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+<div class="hero-box">
+<h2>Karibu ST MARTIN HOSPITAL KIPATIMU</h2>
+<p>HUDUMA BORA KWA AFYA YAKO</p>
+</div>
+</section>
+
+<section class="services">
+
+<div class="card">
+<img src="checkup.png">
+<h3>General Checkup</h3>
+<p>Huduma za uchunguzi wa kawaida.</p>
+</div>
+
+<div class="card">
+<img src="lab.png">
+<h3>Laboratory Services</h3>
+<p>Vipimo vya kisasa vya maabara.</p>
+</div>
+
+<div class="card">
+<img src="emergency.png">
+<h3>Emergency Care</h3>
+<p>Huduma za dharura saa 24.</p>
+</div>
+
+</section>
+
+<!-- WHATSAPP BUTTON -->
+<a class="whatsapp"
+href="https://wa.me/255789107072"
+target="_blank">
+WhatsApp
+</a>
+
+<footer>
+<p><b>ST MARTIN HOSPITAL KIPATIMU</b></p>
+<p>📞 0789107072</p>
+<p>✉️ kipatimuhospital@yahoo.com</p>
+<p>© 2026 All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
